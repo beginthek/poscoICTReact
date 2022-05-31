@@ -13,6 +13,7 @@ function App() {
     copy.push(todo.value);
     setTodoList(copy);
     todo.value = '';
+    //
   };
 
   const deleteTodo = (e) => {
